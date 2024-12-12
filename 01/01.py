@@ -6,7 +6,7 @@ l1 = []
 l2 = []
 
 # Loading data
-with open("01.txt") as f:
+with open("data") as f:
 	while line := f.readline()[:-1]:
 		[e1, e2] = line.split("   ")
 		l1.append(int(e1))

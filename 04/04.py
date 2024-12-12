@@ -44,7 +44,7 @@ class Table:
                 for i in range(-1,2) 
                 for j in range(-1,2)]
     
-t = Table("04.txt")
+t = Table("data")
 word = "XMAS"
 res = 0
 (x,y) = t.get_size()

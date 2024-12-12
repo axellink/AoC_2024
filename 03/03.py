@@ -3,7 +3,7 @@
 import re
 
 # Loading data
-with open("03.txt") as f:
+with open("data") as f:
     memory = f.read().replace("\n","")
 
 # first part

@@ -11,8 +11,8 @@ a_list[-3] is valid !
 yeah I knew it, still I got my ass handed to me
 """
 
-#FILENAME = "06_test.txt"
-FILENAME = "06.txt"
+#FILENAME = "test"
+FILENAME = "data"
 orig_map = []
 with open(FILENAME, 'r') as f:
     orig_map = []

@@ -1,6 +1,6 @@
 #!/bin/env python3
 
-FILENAME="07.txt"
+FILENAME="data"
 datas = []
 with open(FILENAME,'r') as f:
     for l in f:

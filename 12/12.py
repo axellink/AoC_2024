@@ -113,7 +113,7 @@ class Region:
 
 regions = []
 
-m = Map("12.txt")
+m = Map("data")
 (size_x, size_y) = m.size
 for x in range(size_x):
     for y in range(size_y):

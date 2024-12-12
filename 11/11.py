@@ -2,7 +2,7 @@
 
 MAX_BLINK = 75
 CACHE = dict()
-with open("11.txt") as f:
+with open("data") as f:
     init = [int(i) for i in f.readline().strip().split()]
 
 def naive(stone, blink=0):

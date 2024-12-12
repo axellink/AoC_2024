@@ -1,6 +1,6 @@
 #!/bin/env python3
 
-FILENAME = "10.txt"
+FILENAME = "data"
 start_pos=[]
 
 class Map:

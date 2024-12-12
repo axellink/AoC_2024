@@ -3,7 +3,7 @@
 reports = []
 
 # Loading data
-with open("02.txt") as f:
+with open("data") as f:
 	while line := f.readline()[:-1]:
 		reports.append([int(i) for i in line.split()])
 

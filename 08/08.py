@@ -2,7 +2,7 @@
 
 from collections import deque
 
-FILENAME="08.txt"
+FILENAME="data"
 
 # part one
 frequencies=dict()

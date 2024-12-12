@@ -1,7 +1,7 @@
 #!/bin/env python3
 from collections import deque
 
-with open("09.txt", 'r') as f:
+with open("data", 'r') as f:
     data = f.read().strip()
 
 file_deq = deque()

@@ -3,7 +3,7 @@
 rules = {}
 orders = []
 
-with open("05.txt",'r') as f:
+with open("data",'r') as f:
     for l in f:
         if '|' in l:
             data = l.strip().split('|')
